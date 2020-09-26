@@ -1,32 +1,32 @@
-
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "Post 1"
-    },
-    {
-      "id": 2,
-      "title": "Post 2"
-    },
-    {
-      "id": 3,
-      "title": "Post 3"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+	"numero": 1,
+	"estado": "Recibido",
+	"productos": [{
+			"codigo": 1,
+			"descripcion": "Pupusa de Queso",
+			"precio": 0.50,
+			"cantidad": 1
+		},
+		{
+			"codigo": 2,
+			"descripcion": "Soda Coca-cola 2.5L",
+			"precio": 1.50,
+			"cantidad": 2
+		},
+		{
+			"codigo": 3,
+			"descripcion": "Pie de Manzana",
+			"precio": 3.25,
+			"cantidad": 3
+		}
+	],
+	"usuario": {
+		"nombre": "Ricardo",
+		"correo": "ricardo.majano@udb.edu.sv"
+	},
+	"direccionEnvio": "mejicanos San Salvador",
+	"total": 13.25,
+	"descuento": 0,
+	"fechaCreacion": "fecha y hora",
+	"horaEntrega": "Hora"
 }
