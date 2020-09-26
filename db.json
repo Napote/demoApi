@@ -1,5 +1,5 @@
 
-[{
+{
     "numero":1,
     "estado":"Recibido",
     "productos":[
@@ -31,4 +31,4 @@
     "descuento":0,
     "fechaCreacion":"fecha y hora",
     "horaEntrega":"Hora"
-}]
+}
